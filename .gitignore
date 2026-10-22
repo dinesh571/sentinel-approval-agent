@@ -1,0 +1,34 @@
+# Python bytecode and test/type/lint caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+senenv/
+.venv/
+venv/
+env/
+
+# IDE and editor state
+.vscode/
+.idea/
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.swp
+*.swo
+*~
+*.tmp
+
+# Generated workspace content and test artifacts
+workspace/*
+!workspace/.gitkeep
+
+# OS metadata
+.DS_Store
+Thumbs.db
+Desktop.ini
